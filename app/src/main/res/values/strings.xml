@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMA Energy View</string>
+    <string name="power_display">%1$.2f kW</string>
+    <string name="energy_display">%1$.2f kWh</string>
+</resources>

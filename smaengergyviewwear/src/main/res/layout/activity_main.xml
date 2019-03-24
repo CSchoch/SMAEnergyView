@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp">
+
+        <com.sccomponents.gauges.gr004.GR004
+            android:id="@+id/gauge"
+            sccAnimDuration="0"
+            sccDisplayValue="false"
+            sccInverted="false"
+            sccLabelsSizeAdjust="0.8"
+            sccMajorTicks="2.5"
+            sccMaxValue="25"
+            sccMinValue="0"
+            sccMinorTicks="0.2"
+            sccShowLabels="true"
+            sccShowShadow="true"
+            sccText="kW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotation="0"
+            android:rotationX="0" />
+    </FrameLayout>
+</android.support.wear.widget.BoxInsetLayout>
