@@ -22,8 +22,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:sccAnimDuration="0"
-        app:sccDisplayValue="false"
-        app:sccGaugeColor="@color/colorPrimary"
         app:sccInverted="false"
         app:sccLabelsSizeAdjust="0.8"
         app:sccMajorTicks="2.5"
@@ -31,9 +29,12 @@
         app:sccMinValue="0"
         app:sccMinorTicks="0.2"
         app:sccShowLabels="true"
-        app:sccShowShadow="true"
         app:sccText="kW"
         app:sccValue="0.1" />
+
+    <!--app:sccDisplayValue="false"
+    app:sccGaugeColor="@color/colorPrimary"
+     app:sccShowShadow="true"-->
 
     <TextView
         android:id="@+id/powerDisplay"

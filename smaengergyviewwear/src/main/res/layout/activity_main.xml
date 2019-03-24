@@ -17,7 +17,6 @@
         <com.sccomponents.gauges.gr004.GR004
             android:id="@+id/gauge"
             sccAnimDuration="0"
-            sccDisplayValue="false"
             sccInverted="false"
             sccLabelsSizeAdjust="0.8"
             sccMajorTicks="2.5"
@@ -25,7 +24,6 @@
             sccMinValue="0"
             sccMinorTicks="0.2"
             sccShowLabels="true"
-            sccShowShadow="true"
             sccText="kW"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
