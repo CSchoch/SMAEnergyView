@@ -1,1 +1,1 @@
-include ':app', ':modbus4Android-1.2', ':smaenergyviewwear', ':smaengergyviewwear', ':library-release'
+include ':app', ':modbus4Android-1.2', ':smaenergyviewwear', ':smaengergyviewwear', ':library-release', ':jlibmodbus-1.2.9.7'
